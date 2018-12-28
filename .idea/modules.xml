@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoSizeDemo.iml" filepath="$PROJECT_DIR$/AutoSizeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/AutoSizeDemo-baseLib.iml" filepath="$PROJECT_DIR$/baseLib/AutoSizeDemo-baseLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/core/core.iml" filepath="$PROJECT_DIR$/baseLib/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_shop/module_shop.iml" filepath="$PROJECT_DIR$/module_shop/module_shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module_tato/module_tato.iml" filepath="$PROJECT_DIR$/module_tato/module_tato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projectcode/projectcode.iml" filepath="$PROJECT_DIR$/projectcode/projectcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baseLib/router/router.iml" filepath="$PROJECT_DIR$/baseLib/router/router.iml" />
+    </modules>
+  </component>
+</project>

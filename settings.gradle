@@ -1,0 +1,1 @@
+include ':app', ':baseLib:router', ':baseLib:core', ':module_shop', ':projectcode', ':module_tato'
