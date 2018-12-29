@@ -12,34 +12,19 @@ import com.alibaba.android.arouter.launcher.ARouter;
 */
 //ARouter 提供了大量的参数类型 跳转携带 https://blog.csdn.net/zhaoyanjun6/article/details/76165252
 public class RouterCenter {
-   /**
-    * 测试首页
-    */
-   public static void toMain() {
-       ARouter.getInstance().build(RouterURLS.BASE_MAIN).navigation();
-   }
 
    /**
-    * shopCart 模块页面
+    * mpv数据测试
     */
-   public static void toShopCart() {
-       // ARouter.getInstance().build(RouterURLS.MODULE_SHOP_CART_MAIN).navigation();
-   }
-
-   public static void toShopCart(Activity context) {
-       // ARouter.getInstance().build(RouterURLS.MODULE_SHOP_CART_MAIN).navigation(context);
+   public static void toTato() {
+       ARouter.getInstance().build(RouterURLS.MODULE_TATO).navigation();
    }
 
    /**
-    * 主页
+    * UI测试
     */
-   public static void toHome() {
-       // ARouter.getInstance().build(RouterURLS.MODULE_SHOP_MALL_HOME).navigation();
+   public static void toUi() {
+      ARouter.getInstance().build(RouterURLS.MODULE_UI).navigation();
    }
 
- /*  public static void toMainOder() {
-       ARouter.getInstance().build(RouterURLS.BASE_MAIN)
-               .withInt(IntentKV.K_TO_MAIN_ORDER, IntentKV.V_TO_MAIN_ORDER)
-               .navigation();
-   }*/
 }

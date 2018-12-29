@@ -201,7 +201,6 @@ public class ImageUtils {
         options.inJustDecodeBounds = true;
         BitmapFactory.decodeFile(filePath, options);
         options.inSampleSize = calculateInSampleSize(options, maxWidth, maxHeight);
-            L.d("采样率:"+options.inSampleSize);
         options.inJustDecodeBounds = false;
         return BitmapFactory.decodeFile(filePath, options);
     }

@@ -8,6 +8,7 @@ import com.dev.autosize.core.BaseApplication;
 import com.dev.autosize.core.BuildConfig;
 import com.dev.autosize.core.constant.BaseHost;
 import com.dev.autosize.core.util.NetUtils;
+import com.facebook.stetho.okhttp3.StethoInterceptor;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -103,7 +104,7 @@ public class HttpHelper {
                 .connectTimeout(CONNECT_TIME_OUT, TimeUnit.MILLISECONDS)
         // .addInterceptor(mRewriteCacheControlInterceptor)
         //  .addNetworkInterceptor(mRewriteCacheControlInterceptor)
-        //   .addNetworkInterceptor(new StethoInterceptor())
+          .addNetworkInterceptor(new StethoInterceptor())
         // .addInterceptor(headerInterceptor)
         ;
         // .cache(cache)

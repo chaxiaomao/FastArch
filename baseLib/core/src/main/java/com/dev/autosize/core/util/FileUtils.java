@@ -152,7 +152,6 @@ public final class FileUtils {
             avatar.mkdirs();
         }
         File file = new File(avatar, fileName);
-        L.e("文件路径"+file.toString());
         // 檢查文件是否存在
         if (file.exists()) {
             file.delete();

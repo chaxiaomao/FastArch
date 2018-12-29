@@ -10,7 +10,7 @@ public class BaseHost {
         String host = "";
         switch (hostType) {
             case 1:
-                host = "";
+                host = "https://fe-api-zdt011-staging.zdt6.com";
                 break;
         }
         return host;

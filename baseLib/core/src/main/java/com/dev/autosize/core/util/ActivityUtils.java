@@ -46,7 +46,6 @@ public class ActivityUtils {
         }
         Activity activity = activityStack.lastElement();
 
-        L.d(TAG, "get current activity:" + activity.getClass().getSimpleName());
         return activity;
     }
 
@@ -72,7 +71,6 @@ public class ActivityUtils {
         if (activityStack == null) {
             activityStack = new Stack<Activity>();
         }
-        L.d(TAG, "push stack activity:" + activity.getClass().getSimpleName());
         activityStack.add(activity);
     }
 
@@ -85,7 +83,6 @@ public class ActivityUtils {
     public void popActivity(Activity activity) {
         if (activity != null) {
             activity.finish();
-            L.d(TAG, "remove current activity:" + activity.getClass().getSimpleName());
             activityStack.remove(activity);
             activity = null;
         }

@@ -3,8 +3,9 @@ package com.dev.autosize.core.widget.roundWidget;
 import android.support.annotation.NonNull;
 import android.view.View;
 
-import com.example.tome.core.R;
-import com.example.tome.core.widget.ResHelper;
+
+import com.dev.autosize.core.R;
+import com.dev.autosize.core.widget.ResHelper;
 
 import java.lang.ref.WeakReference;
 

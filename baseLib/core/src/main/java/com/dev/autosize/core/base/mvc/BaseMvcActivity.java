@@ -41,6 +41,7 @@ public abstract class BaseMvcActivity extends AppCompatActivity implements IView
     //管理事件流订阅的生命周期CompositeDisposable
     private CompositeDisposable compositeDisposable;
     public KProgressHUD kProgressHUD;
+    public IView mView = this;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

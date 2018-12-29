@@ -9,22 +9,8 @@ package com.fec.core.router.arouter;
     //url 第一次相同会报错??
 public interface RouterURLS {
 
-    String MEMBER_INFORMATION = "/member/information";
-    String BASE_MAIN = "/base/main";
-    String SHOP_CART_MAIN = "/shoping/cart/main";
-    String SHOP_MALL_HOME = "/mall/home";
-    String SHOP_GOODS = "/shop1/goods";
-    String MVC_TEST = "/mvc/test";
-    String MVP_TEST = "/mvp/test";
-    String MVP_TEST2 = "/mvp/test2";
-    String WELFARE_HOME = "/welfare/home";
-    String WELFARE_PREVIEW = "/welfare/preview";
+    String MODULE_TATO = "/tato/main";
 
-
-    String PRODUCT_GOODS = "/product1/goods";
-    String PRODUCT_CART = "/product/cart";
-
-    String CUSTOM_CONTROL = "/custom/control";
-
+    String MODULE_UI = "/ui/main";
 
 }

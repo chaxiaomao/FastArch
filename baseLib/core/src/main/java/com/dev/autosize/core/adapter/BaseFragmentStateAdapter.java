@@ -4,7 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.dev.autosize.core.Util.ObjectUtils;
+
+import com.dev.autosize.core.util.ObjectUtils;
 
 import java.util.ArrayList;
 import java.util.List;
