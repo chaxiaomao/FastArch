@@ -83,6 +83,9 @@
     <string name="common_hint_registered_phone_number">手机号已被注册</string>
     <string name="common_hint_fill_verifying_code">填写验证码</string>
 
+    <string name="common_positive">确定</string>
+    <string name="common_negative">取消</string>
+
     <string name="open_project">开源项目</string>
     <string name="minute">分钟</string>
     <string name="hour">小时</string>

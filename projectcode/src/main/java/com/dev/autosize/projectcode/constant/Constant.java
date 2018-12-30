@@ -1,4 +1,4 @@
-package com.dev.autosize.core.constant;
+package com.dev.autosize.projectcode.constant;
 
 /**
  * Created by Administrator on 2018-12-27.
@@ -10,6 +10,8 @@ public interface Constant {
     String RESULT_CODE = "000";
 
     String HEADER_KEY_AUTH = "Authorization";
+
+    String AUTH_TOKEN_PRE = "Bearer ";
 
     String ENCTYPE = "charset=utf-8"; // 编码方式
 

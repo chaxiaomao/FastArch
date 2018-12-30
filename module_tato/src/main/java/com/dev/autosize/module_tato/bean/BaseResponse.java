@@ -7,7 +7,23 @@ package com.dev.autosize.module_tato.bean;
 public class BaseResponse<T> {
 
     public T data;
-    // public MetaBean meta;
+    public MetaBean meta;
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    public MetaBean getMeta() {
+        return meta;
+    }
+
+    public void setMeta(MetaBean meta) {
+        this.meta = meta;
+    }
 
     public static class MetaBean {
         /**

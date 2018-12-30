@@ -1,4 +1,4 @@
-package com.dev.autosize.core.net;
+package com.dev.autosize.projectcode.base;
 
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
@@ -6,8 +6,9 @@ import android.util.SparseArray;
 
 import com.dev.autosize.core.BaseApplication;
 import com.dev.autosize.core.BuildConfig;
-import com.dev.autosize.core.constant.BaseHost;
+import com.dev.autosize.core.net.HttpLogger;
 import com.dev.autosize.core.util.NetUtils;
+import com.dev.autosize.projectcode.constant.BaseHost;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

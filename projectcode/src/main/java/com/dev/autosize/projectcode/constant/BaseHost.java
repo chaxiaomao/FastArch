@@ -1,4 +1,4 @@
-package com.dev.autosize.core.constant;
+package com.dev.autosize.projectcode.constant;
 
 /**
  * Created by Administrator on 2018-12-28.
