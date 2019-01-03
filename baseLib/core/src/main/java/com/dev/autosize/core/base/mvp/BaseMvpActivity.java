@@ -16,6 +16,7 @@ import com.dev.autosize.core.base.bean.BaseEventBean;
 import com.dev.autosize.core.helper.HUDFactory;
 import com.dev.autosize.core.util.LogUtil;
 import com.dev.autosize.core.util.StatuBarCompat;
+import com.dev.autosize.core.util.ToastUtils;
 import com.gyf.barlibrary.ImmersionBar;
 import com.kaopiz.kprogresshud.KProgressHUD;
 
@@ -153,6 +154,63 @@ public abstract class BaseMvpActivity<V extends IView, P extends IPresenter<V>> 
         }
         dismissLoadingProgress();
         BaseApplication.getAppContext().getActivityControl().removeActivity(this);
+    }
+
+    @Override
+    public P getPresenter() {
+        return mPresenter;
+    }
+
+    @Override
+    public void setPresenter(P presenter) {
+        this.mPresenter = presenter;
+    }
+
+    @Override
+    public void setMvpView(V view) {
+        this.mView = view;
+    }
+
+    @Override
+    public V getMvpView() {
+        return this.mView;
+    }
+
+    /**
+     * 提示网络请求错误信息
+     * @param msg
+     * @param code
+     */
+    @Override
+    public void showError(String msg, String code) {
+        String mCode ="-1";
+        if (mCode.equals(code)){
+            ToastUtils.showShort(mActivity, msg);
+        }
+
+    }
+
+    /**
+     * 空界面显示
+     */
+    @Override
+    public void showNormal() {
+
+    }
+
+    @Override
+    public void showLoading() {
+
+    }
+
+    @Override
+    public void showEmptyView() {
+
+    }
+
+    @Override
+    public void showError() {
+
     }
 
     /**
